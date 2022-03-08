@@ -1,3 +1,51 @@
 h1 {
     color: blue;
 }
+
+.container {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.container div {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: coral;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* flex: 1; */
+}
+
+.header {
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content-area {
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 50px;
+    padding: 10px;
+    background-color: brown;
+}
+
+.main-area {
+    background-color: chartreuse;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #fff;
+    font-size: 20px;
+}
